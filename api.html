@@ -1,0 +1,78 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="./web.css">
+    <title>
+      API
+    </title>    
+  </head>
+    <body>
+        
+              
+      <div class="container">
+        <div class = "f-container nav-container nav-bg-grad record-cont">
+            
+            <div>
+            <div class="logo center-height" >
+                <p class="logo-center"> LOGO </p>
+            </div>
+                
+            
+            </div>
+            
+            
+            <div class="f-navbar center-height ">
+            
+           
+            <div class="f-item" ><a href="#home" class="nav-text">Home</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">Services</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">News</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">About Us</a> </div>
+                
+    
+            <a href="#" class=" button lft-mg lets-talk"><p class="bold">Lets Talk</p></a>
+                
+        
+               
+            </div>
+        </div>
+          <div class="flt-css">
+              <br>
+          <label for="userId">User-Id:</label>
+          <input type="text" id="userId" name="userId"><p class="red" id="n-val"></p>
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title"><p class="red" id="e-val"></p>
+           <label for="body">Body:</label>
+          <input type="text" id="body" name="body"><p class="red" id="a-val"></p>
+          <button id ='s-id' type="button" class="btn-yellow" onclick="submitForm()"> Submit Record </button>
+          
+          </div>
+          
+           <div role="status" id="loading">
+                <span >Loading...</span>
+            </div>
+          
+          
+        <div class="flex">
+        
+          <table class="tbl" >
+              <thead>
+                <th>User Id</th>
+                <th>Title</th>
+                <th>Body</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </thead>
+              <tbody id="tb-id">
+              </tbody>
+           
+          </table>
+          
+        </div>
+        </div>
+        
+    </body>
+    
+      <script src='./javascript-2.js'></script>
+      <script src='./api-javascript.js'></script>
+    
+</html>

@@ -1,0 +1,73 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="./web.css">
+    <title>
+      Record 
+    </title>    
+  </head>
+    <body>
+        
+              
+      <div class="container">
+        <div class = "f-container nav-container nav-bg-grad record-cont">
+            
+            <div>
+            <div class="logo center-height" >
+                <p class="logo-center"> LOGO </p>
+            </div>
+                
+            
+            </div>
+            
+            
+            <div class="f-navbar center-height ">
+            
+           
+            <div class="f-item" ><a href="#home" class="nav-text">Home</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">Services</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">News</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">About Us</a> </div>
+                
+    
+            <a href="#" class=" button lft-mg lets-talk"><p class="bold">Lets Talk</p></a>
+                
+        
+               
+            </div>
+        </div>
+          <div class="flt-css">
+              <br>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><p class="red" id="name-val"></p>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><p class="red" id="email-val"></p>
+           <label for="address">Address:</label>
+          <input type="text" id="address" name="address"><p class="red" id="add-val"></p>
+          <button id="sub-id" type="button" class="btn-yellow" onclick="submitForm()"> Submit Record </button>
+          
+          </div>
+          
+          
+        <div class="flex">
+        
+          <table class="tbl" >
+              <thead>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </thead>
+              <tbody id="tbl-id">
+              </tbody>
+           
+          </table>
+          
+        </div>
+        </div>
+        
+    </body>
+    
+      <script src='./javascript-2.js'></script>
+    <script src='./crud-javascript.js'></script>
+</html>

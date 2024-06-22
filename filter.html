@@ -1,0 +1,67 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="./web.css">
+    <title>
+      Record 
+    </title>    
+  </head>
+    <body>
+        
+              
+      <div class="container">
+        <div class = "f-container nav-container nav-bg-grad record-cont">
+            
+            <div>
+            <div class="logo center-height" >
+                <p class="logo-center"> LOGO </p>
+            </div>
+                
+            
+            </div>
+            
+            
+            <div class="f-navbar center-height ">
+            
+           
+            <div class="f-item" ><a href="#home" class="nav-text">Home</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">Services</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">News</a> </div>
+            <div class="f-item" ><a href="#home" class="nav-text">About Us</a> </div>
+                
+    
+            <a href="#" class=" button lft-mg lets-talk"><p class="bold">Lets Talk</p></a>
+                
+        
+               
+            </div>
+        </div>
+          
+          
+        <div class="flex">
+            
+        <div class="flt-css bg-color">
+              <label for="fname">Search by Username:</label><br>
+              <input  type="text" id="uname" name="uname" >
+             <br>
+              <button  type="button" onclick="filterRecordTable()" >Submit</button>
+          </div>
+       
+          <table class="tbl" >
+              <thead>
+                <th> New User Name</th>
+                <th> New Email</th>
+                <th>New Address</th>
+              </thead>
+              <tbody id="flt-tbl">
+              </tbody>
+           
+          </table>
+          
+        </div>
+        </div>
+        
+    </body>
+    
+      <script src='./javascript-2.js'></script>
+      <script src='./javascript-fnc.js'></script>
+</html>
